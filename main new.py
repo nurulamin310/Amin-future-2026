@@ -1,4 +1,3 @@
-Main new. py
 #!/usr/bin/env python3
 # Amin Future Signal - Advanced Edition
 # Python 3.10+ | python-telegram-bot 22.x
