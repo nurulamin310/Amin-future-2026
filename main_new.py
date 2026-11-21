@@ -29,8 +29,7 @@ GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
 TIMEZONE = timezone(timedelta(hours=6), name="BDT")
 MAX_ROWS = 20000
 MIN_CANDLES = 35
-logging.basicConfig(
-    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+logging.basicConfig(format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     level=logging.INFO
 )
 log = logging.getLogger("amin_future_signal")
