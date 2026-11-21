@@ -19,9 +19,9 @@ from collections import defaultdict
 from typing import Optional
 from telegram import Update
 from telegram.request import HTTPXRequest
-from telegram.ext import (
+from telegram.ext import 
     Application, CommandHandler, MessageHandler, ContextTypes, filters
-)
+
 BOT_NAME = "AMIN FUTURE SIGNAL – ADVANCED EDITION"
 # Security: tokens are loaded from hosting environment variables.
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
